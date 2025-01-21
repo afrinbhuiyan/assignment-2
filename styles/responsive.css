@@ -25,6 +25,7 @@
   .banner {
     flex-direction: column-reverse;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     gap: 20px;
   }
@@ -69,7 +70,7 @@
   .curriculum-container h1 {
     font-size: 26px;
     line-height: 33px;
-    margin-bottom: 20px;
+    margin: 10px 0;
   }
   .card-container {
     width: 100%;
