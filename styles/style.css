@@ -72,6 +72,10 @@
   background: #fea301;
 }
 
+.hide {
+  display: none;
+}
+
 /* header related styles */
 
 /* navbar styles */
@@ -359,7 +363,6 @@ li a {
 }
 
 .small-story {
-  /* width: 290.69px; */
   border-radius: 16px;
   background: rgb(255, 255, 255);
   position: relative;
