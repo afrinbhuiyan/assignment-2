@@ -22,4 +22,134 @@
     display: block;
     margin-right: 20px;
   }
+  .banner {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    width: 100%;
+    gap: 20px;
+  }
+  .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .banner-content p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 18px;
+  }
+  .btn-primary {
+    width: 131px;
+    font-size: 16px;
+    height: 42px;
+  }
+  .banner-img {
+    display: flex;
+    width: 100%;
+  }
+  .banner-img img {
+    width: 80%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .curriculum-container {
+    width: 100%;
+    height: 993px;
+  }
+  .curriculum-container h1 {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+  .card-container {
+    width: 100%;
+    gap: 20px;
+  }
+  .slider-btns {
+    display: none;
+  }
+  .card {
+    width: 357px;
+    height: 321.28px;
+  }
+  .card .title {
+    font-size: 16.25px;
+  }
+  .card .description {
+    font-size: 10.22px;
+    line-height: 19.16px;
+  }
+  .card .read_more {
+    font-size: 10.22px;
+    margin-top: 20px;
+  }
+  .card img {
+    width: 91.01px;
+    height: 81.46px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .logo h2 {
+    display: none;
+  }
+  .navbar {
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+    width: 100%;
+    height: 100px;
+  }
+  .logo img {
+    margin-left: 20px;
+  }
+  .btn {
+    margin-right: 20px;
+  }
+  .banner {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .banner-content h1 {
+    font-size: 2.8rem;
+    line-height: 51px;
+  }
+  .banner-content p {
+    font-size: 1rem;
+  }
+  .banner-content {
+    width: auto;
+    margin-left: 20px;
+  }
+  .banner-img {
+    display: flex;
+    width: 80%;
+    justify-content: end;
+    margin-right: 20px;
+  }
+  .banner-img img {
+    width: 80%;
+  }
+  .btn-primary {
+    width: 150px;
+    font-size: 1.2rem;
+  }
+  .curriculum-container {
+    height: 1040px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .slider-btns {
+    display: none;
+  }
 }

@@ -37,7 +37,7 @@
 
 .btn-primary {
   width: 197px;
-  padding: 12px;
+  height: 50px;
   border-radius: 12px;
   color: #ffffff;
   font-size: 1.4rem;
@@ -65,7 +65,11 @@
 }
 
 .btn-primary:hover::before {
-    height: 380%;
+  height: 380%;
+}
+
+.btn-color::before {
+  background: #fea301;
 }
 
 /* header related styles */
@@ -119,7 +123,158 @@ li a {
 }
 
 .icon {
-    display: none;
+  display: none;
 }
 
 /* banner styles */
+
+.banner {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.banner-content {
+  width: 690px;
+}
+
+.banner-content h1 {
+  font-family: Quicksand;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.banner-content p {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 24px 0;
+}
+
+/* main related styles */
+
+.curriculum-container {
+  width: 99vw;
+  height: 879px;
+  margin: 0 auto;
+  background-image: url(../assets/bg.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.curriculum-container h1 {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 57.5px;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 22.988rem;
+  height: 29.799rem;
+  box-sizing: border-box;
+  border-radius: 18.86px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: inset 0px 0px 28.3px 0.94px #0000000d;
+}
+
+.card-gradient-1 {
+  border: 0.94px solid rgb(222, 245, 255);
+  background: linear-gradient(180deg, #def5ff, #ffffff00 40%), #ffffff;
+}
+
+.card-gradient-2 {
+  border: 0.94px solid rgb(255, 244, 220);
+  background: linear-gradient(180deg, #fff4dc, #ffffff00 40%), #ffffff;
+}
+
+.card-gradient-3 {
+  border: 0.94px solid rgb(242, 232, 255);
+  background: linear-gradient(
+      180deg,
+      #eee1ff,
+      #ffffff00 40%
+    ),
+    #ffffff;
+}
+
+.card .title {
+  color: #202020;
+  font-size: 24.52px;
+  font-weight: 700;
+  line-height: 30.65px;
+  margin: 18px 0;
+}
+
+.card .description {
+  color: #808080;
+  font-family: Raleway;
+  font-size: 15.09px;
+  font-weight: 500;
+  line-height: 28.3px;
+}
+
+.card .read_more {
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+  margin-top: 30px;
+}
+
+.text-color-1 {
+  color: #64C8FF;
+}
+
+.text-color-2 {
+  color: #F0AA00;
+}
+
+.text-color-3 {
+  color: #8700FF;
+}
+
+.slider-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.slider-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: #0c0c0c;
+  transform: scale(1.1);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.349);
+}
